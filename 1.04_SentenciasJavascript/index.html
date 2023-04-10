@@ -20,81 +20,16 @@
     <div class="container">
         <div class="row mt-5 justify-content-center">
             <div class="col-8 bg-white p-5 shadow">
-                <h1>Sintaxis javascript</h1>
+                <h1>Sentecias javascript</h1>
+                <p>Las sentencias deben terminar en punto y coma (;)</p>
+                <p>No obliatorio</p>
                 
-                <ul class="list-group">
-                    <ul class="list-group">
-                        
-                        <li class="list-group-item mt-3 shadow bg-primary text-white">
-                            Valores Literales
-                        </li>
-                        <script>alert("hola");</script>
-                        
-
-                        <li class="list-group-item mt-3 shadow bg-primary text-white">
-                            Valores Variables
-                        </li>
-                        <script>
-                            var a = 3;
-                            alert(a);                        
-                        </script>
-
-
-                    </ul>                    
-
-
-                    <li class="list-group-item mt-3 shadow bg-primary text-white">
-                        Operadores
-                    </li>                    
-                    <script>
-                        var b = 7;
-                        alert(a+b);
-                    </script>
-
-
-                    <li class="list-group-item mt-3 shadow bg-primary text-white">
-                        Expresiones
-                    </li>
-                    <script>
-                        alert("Hola " + 3);
-                    </script>
-
-
-                    <li class="list-group-item mt-3 shadow bg-primary text-white">
-                        Palabras Reservadas (KeyWords)
-                    </li>
-                    <script>
-                        /*var var = 33;
-                        alert(var);*/
-                    </script>
-
-
-                    <li class="list-group-item mt-3 shadow bg-primary text-white">
-                        Comentarios
-                    </li>
-                    <script>
-                        alert("comentarios");
-                        // comentario de una linea
-                        /*  Comentario 
-                            Multi
-                            Linea
-                        */
-                    </script>
-                    <h2>Identificadores</h2>
-                    <ul>
-                        <li class="list-group-item mt-3 shadow bg-primary text-white">
-                            Comienzan con letra, $, _
-                        </li>
-                        <li class="list-group-item mt-3 shadow bg-primary text-white">
-                            Seguida de letra, $, _, número
-                        </li>
-                        <li class="list-group-item mt-3 shadow bg-primary text-white">
-                            usar CamelCase
-                        </li>
-                    </ul>
-
-                </ul>
-
+                <script>
+                    document.write('<h2 class="alert alert-primary shadow-sm mt-4">sentencia terminada en punto y coma</h2>');
+                    document.write('<h2 class="alert alert-secondary shadow-sm mt-4">sentencia terminada sin punto y coma</h2>');
+                </script>
+                
+                
             </div>
         </div>
     </div>
