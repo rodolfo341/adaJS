@@ -20,14 +20,35 @@
 
     <div class="container">
         <div class="row mt-5 justify-content-center">
-            <div class="col-8 bg-white p-5 shadow">
-                <h1>Titulo</h1>
-                <script src="app.js">
-                  
+            <div class="col-8 bg-white py-2 shadow mt-4">
+                <script>
+                    window.alert("alert");
                 </script>               
+                <h1>Alert</h1>
+            </div>
+            <div class="col-8 bg-white py-2 shadow mt-4">
+                <h1>
+                    <script>
+                        document.write("write");
+                    </script>
+                </h1>
+            </div>
+            <div class="col-8 bg-white py-2 shadow mt-4">
+                <h1 id="IDE"></h1>           
+                <script>
+                    document.getElementById("IDE").innerHTML = "getElementById"; 
+                </script>
+            </div>
+            <div class="col-8 bg-white py-2 shadow mt-4">
+                <h1>
+                    <script>
+                        console.log("holas")
+                    </script>               
+                </h1>
             </div>
         </div>
     </div>
+
 
 
 
