@@ -10,23 +10,28 @@
     <title>Document</title>
     <style> body{ background-color:silver; } </style>    
 
-    <script>
-        function holaMundo(){
-            alert("Hola mundo");
-        }
-    </script>               
-
 </head>
 
 <body>
 
     <div class="container">
         <div class="row mt-5 justify-content-center">
-            <div class="col-8 bg-white py-2 shadow mt-4">
-                <h1>Variables</h1>
+            <div class="col-8 bg-white py-2 shadow mt-4 pt-4">
+                
                 <script>
-                    holaMundo();
+                    window.alert("un alert");
+                    document.write('<h2 class="alert alert-success">Write</h2>');    
                 </script>
+
+                <div class="alert alert-info" role="alert">
+                    
+                    <h2 id="ID">Variables</h2>
+                    
+                    <script>
+                        document.getElementById("ID").innerHTML = "el ID cambio";
+                    </script>
+
+                </div>
             </div>
             
         </div>
