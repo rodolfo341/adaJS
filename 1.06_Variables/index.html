@@ -16,9 +16,32 @@
 
     <div class="container">
         <div class="row mt-5 justify-content-center">
-            <div class="col-8 bg-white py-2 shadow mt-4 pt-4">
+            <div class="col-8 bg-white py-2 shadow mt-4 py-4">
                 
-                <h1 class="alert alert-primary text-center">Valores</h1>
+                <h1 class="alert alert-primary text-center">Variables mal declaradas</h1>
+
+                <ul class="list-group">
+
+                    <li class="list-group-item mt-3 bg-primary shadow text-white" id="id-parrafo-1">                      
+                        <script>
+                            let parrafo1, parrafo2,parrafo3;
+                            parrafo1 = "texto del parrafo1";
+                            parrafo2 = "texto del parrafo2";
+                            parrafo3 = "texto del parrafo3";
+                            document.getElementById("id-parrafo-1").innerHTML = parrafo1;                          
+                        </script>
+                    </li>
+                    <li class="list-group-item mt-3 bg-primary shadow text-white" id="id-parrafo-2">                      
+                        <script>        
+                            document.getElementById("id-parrafo-2").innerHTML = parrafo2;                           
+                        </script>
+                    </li>
+                    <li class="list-group-item mt-3 bg-primary shadow text-white" id="id-parrafo-3">
+                        <script>                                                       
+                            document.getElementById("id-parrafo-3").innerHTML = parrafo3;
+                        </script>
+                    </li>
+
 
                 </ul>
                        
